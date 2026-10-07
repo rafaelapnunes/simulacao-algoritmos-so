@@ -1,0 +1,166 @@
+trace,algoritmo,frames,bits,intervalo,acessos,falhas,taxa_falhas
+bigone.trace.txt,OPT,4,,,4000000,731913,0.182978
+bigone.trace.txt,LRU,4,,,4000000,966135,0.241534
+bigone.trace.txt,LRU aproximado,4,32,100,4000000,1027857,0.256964
+bigone.trace.txt,OPT,8,,,4000000,424381,0.106095
+bigone.trace.txt,LRU,8,,,4000000,663748,0.165937
+bigone.trace.txt,LRU aproximado,8,32,100,4000000,669711,0.167428
+bigone.trace.txt,OPT,12,,,4000000,299264,0.074816
+bigone.trace.txt,LRU,12,,,4000000,500791,0.125198
+bigone.trace.txt,LRU aproximado,12,32,100,4000000,485623,0.121406
+bigone.trace.txt,OPT,16,,,4000000,230369,0.057592
+bigone.trace.txt,LRU,16,,,4000000,400591,0.100148
+bigone.trace.txt,LRU aproximado,16,32,100,4000000,389552,0.097388
+bigone.trace.txt,OPT,20,,,4000000,187250,0.046812
+bigone.trace.txt,LRU,20,,,4000000,316355,0.079089
+bigone.trace.txt,LRU aproximado,20,32,100,4000000,300925,0.075231
+bigone.trace.txt,OPT,24,,,4000000,160072,0.040018
+bigone.trace.txt,LRU,24,,,4000000,256748,0.064187
+bigone.trace.txt,LRU aproximado,24,32,100,4000000,250530,0.062632
+bigone.trace.txt,OPT,28,,,4000000,141497,0.035374
+bigone.trace.txt,LRU,28,,,4000000,224309,0.056077
+bigone.trace.txt,LRU aproximado,28,32,100,4000000,219839,0.054960
+bigone.trace.txt,OPT,32,,,4000000,127910,0.031977
+bigone.trace.txt,LRU,32,,,4000000,202533,0.050633
+bigone.trace.txt,LRU aproximado,32,32,100,4000000,199994,0.049999
+bigone.trace.txt,OPT,64,,,4000000,75228,0.018807
+bigone.trace.txt,LRU,64,,,4000000,123192,0.030798
+bigone.trace.txt,LRU aproximado,64,32,100,4000000,122216,0.030554
+bigone.trace.txt,OPT,128,,,4000000,43058,0.010764
+bigone.trace.txt,LRU,128,,,4000000,75925,0.018981
+bigone.trace.txt,LRU aproximado,128,32,100,4000000,77118,0.019280
+bigone.trace.txt,OPT,256,,,4000000,22434,0.005608
+bigone.trace.txt,LRU,256,,,4000000,42600,0.010650
+bigone.trace.txt,LRU aproximado,256,32,100,4000000,49332,0.012333
+bzip.trace.txt,OPT,4,,,1000000,78562,0.078562
+bzip.trace.txt,LRU,4,,,1000000,92770,0.092770
+bzip.trace.txt,LRU aproximado,4,32,100,1000000,112196,0.112196
+bzip.trace.txt,OPT,8,,,1000000,18251,0.018251
+bzip.trace.txt,LRU,8,,,1000000,30691,0.030691
+bzip.trace.txt,LRU aproximado,8,32,100,1000000,29057,0.029057
+bzip.trace.txt,OPT,12,,,1000000,2978,0.002978
+bzip.trace.txt,LRU,12,,,1000000,3907,0.003907
+bzip.trace.txt,LRU aproximado,12,32,100,1000000,4015,0.004015
+bzip.trace.txt,OPT,16,,,1000000,2427,0.002427
+bzip.trace.txt,LRU,16,,,1000000,3344,0.003344
+bzip.trace.txt,LRU aproximado,16,32,100,1000000,3417,0.003417
+bzip.trace.txt,OPT,20,,,1000000,2043,0.002043
+bzip.trace.txt,LRU,20,,,1000000,3001,0.003001
+bzip.trace.txt,LRU aproximado,20,32,100,1000000,3073,0.003073
+bzip.trace.txt,OPT,24,,,1000000,1735,0.001735
+bzip.trace.txt,LRU,24,,,1000000,2702,0.002702
+bzip.trace.txt,LRU aproximado,24,32,100,1000000,2822,0.002822
+bzip.trace.txt,OPT,28,,,1000000,1488,0.001488
+bzip.trace.txt,LRU,28,,,1000000,2301,0.002301
+bzip.trace.txt,LRU aproximado,28,32,100,1000000,2323,0.002323
+bzip.trace.txt,OPT,32,,,1000000,1330,0.001330
+bzip.trace.txt,LRU,32,,,1000000,2133,0.002133
+bzip.trace.txt,LRU aproximado,32,32,100,1000000,2156,0.002156
+bzip.trace.txt,OPT,64,,,1000000,821,0.000821
+bzip.trace.txt,LRU,64,,,1000000,1264,0.001264
+bzip.trace.txt,LRU aproximado,64,32,100,1000000,1301,0.001301
+bzip.trace.txt,OPT,128,,,1000000,497,0.000497
+bzip.trace.txt,LRU,128,,,1000000,771,0.000771
+bzip.trace.txt,LRU aproximado,128,32,100,1000000,859,0.000859
+bzip.trace.txt,OPT,256,,,1000000,317,0.000317
+bzip.trace.txt,LRU,256,,,1000000,397,0.000397
+bzip.trace.txt,LRU aproximado,256,32,100,1000000,508,0.000508
+gcc.trace.txt,OPT,4,,,1000000,185754,0.185754
+gcc.trace.txt,LRU,4,,,1000000,243809,0.243809
+gcc.trace.txt,LRU aproximado,4,32,100,1000000,297010,0.297010
+gcc.trace.txt,OPT,8,,,1000000,118480,0.118480
+gcc.trace.txt,LRU,8,,,1000000,171186,0.171186
+gcc.trace.txt,LRU aproximado,8,32,100,1000000,183513,0.183513
+gcc.trace.txt,OPT,12,,,1000000,93781,0.093781
+gcc.trace.txt,LRU,12,,,1000000,135421,0.135421
+gcc.trace.txt,LRU aproximado,12,32,100,1000000,140662,0.140662
+gcc.trace.txt,OPT,16,,,1000000,80307,0.080307
+gcc.trace.txt,LRU,16,,,1000000,116604,0.116604
+gcc.trace.txt,LRU aproximado,16,32,100,1000000,118344,0.118344
+gcc.trace.txt,OPT,20,,,1000000,71602,0.071602
+gcc.trace.txt,LRU,20,,,1000000,105097,0.105097
+gcc.trace.txt,LRU aproximado,20,32,100,1000000,105139,0.105139
+gcc.trace.txt,OPT,24,,,1000000,65013,0.065013
+gcc.trace.txt,LRU,24,,,1000000,97076,0.097076
+gcc.trace.txt,LRU aproximado,24,32,100,1000000,96344,0.096344
+gcc.trace.txt,OPT,28,,,1000000,59807,0.059807
+gcc.trace.txt,LRU,28,,,1000000,90243,0.090243
+gcc.trace.txt,LRU aproximado,28,32,100,1000000,89465,0.089465
+gcc.trace.txt,OPT,32,,,1000000,55802,0.055802
+gcc.trace.txt,LRU,32,,,1000000,84401,0.084401
+gcc.trace.txt,LRU aproximado,32,32,100,1000000,83901,0.083901
+gcc.trace.txt,OPT,64,,,1000000,38050,0.038050
+gcc.trace.txt,LRU,64,,,1000000,59089,0.059089
+gcc.trace.txt,LRU aproximado,64,32,100,1000000,58772,0.058772
+gcc.trace.txt,OPT,128,,,1000000,24391,0.024391
+gcc.trace.txt,LRU,128,,,1000000,40821,0.040821
+gcc.trace.txt,LRU aproximado,128,32,100,1000000,40793,0.040793
+gcc.trace.txt,OPT,256,,,1000000,12667,0.012667
+gcc.trace.txt,LRU,256,,,1000000,25308,0.025308
+gcc.trace.txt,LRU aproximado,256,32,100,1000000,28241,0.028241
+sixpack.trace.txt,OPT,4,,,1000000,197551,0.197551
+sixpack.trace.txt,LRU,4,,,1000000,282620,0.282620
+sixpack.trace.txt,LRU aproximado,4,32,100,1000000,270605,0.270605
+sixpack.trace.txt,OPT,8,,,1000000,116407,0.116407
+sixpack.trace.txt,LRU,8,,,1000000,176496,0.176496
+sixpack.trace.txt,LRU aproximado,8,32,100,1000000,178765,0.178765
+sixpack.trace.txt,OPT,12,,,1000000,85779,0.085779
+sixpack.trace.txt,LRU,12,,,1000000,135644,0.135644
+sixpack.trace.txt,LRU aproximado,12,32,100,1000000,134006,0.134006
+sixpack.trace.txt,OPT,16,,,1000000,69325,0.069325
+sixpack.trace.txt,LRU,16,,,1000000,108682,0.108682
+sixpack.trace.txt,LRU aproximado,16,32,100,1000000,107971,0.107971
+sixpack.trace.txt,OPT,20,,,1000000,58809,0.058809
+sixpack.trace.txt,LRU,20,,,1000000,92319,0.092319
+sixpack.trace.txt,LRU aproximado,20,32,100,1000000,91375,0.091375
+sixpack.trace.txt,OPT,24,,,1000000,51576,0.051576
+sixpack.trace.txt,LRU,24,,,1000000,81089,0.081089
+sixpack.trace.txt,LRU aproximado,24,32,100,1000000,80053,0.080053
+sixpack.trace.txt,OPT,28,,,1000000,46203,0.046203
+sixpack.trace.txt,LRU,28,,,1000000,73341,0.073341
+sixpack.trace.txt,LRU aproximado,28,32,100,1000000,72297,0.072297
+sixpack.trace.txt,OPT,32,,,1000000,41955,0.041955
+sixpack.trace.txt,LRU,32,,,1000000,67747,0.067747
+sixpack.trace.txt,LRU aproximado,32,32,100,1000000,66744,0.066744
+sixpack.trace.txt,OPT,64,,,1000000,22083,0.022083
+sixpack.trace.txt,LRU,64,,,1000000,41186,0.041186
+sixpack.trace.txt,LRU aproximado,64,32,100,1000000,40529,0.040529
+sixpack.trace.txt,OPT,128,,,1000000,11690,0.011690
+sixpack.trace.txt,LRU,128,,,1000000,21090,0.021090
+sixpack.trace.txt,LRU aproximado,128,32,100,1000000,21404,0.021404
+sixpack.trace.txt,OPT,256,,,1000000,5981,0.005981
+sixpack.trace.txt,LRU,256,,,1000000,11240,0.011240
+sixpack.trace.txt,LRU aproximado,256,32,100,1000000,13169,0.013169
+swim.trace.txt,OPT,4,,,1000000,270046,0.270046
+swim.trace.txt,LRU,4,,,1000000,346936,0.346936
+swim.trace.txt,LRU aproximado,4,32,100,1000000,348046,0.348046
+swim.trace.txt,OPT,8,,,1000000,171244,0.171244
+swim.trace.txt,LRU,8,,,1000000,285375,0.285375
+swim.trace.txt,LRU aproximado,8,32,100,1000000,278376,0.278376
+swim.trace.txt,OPT,12,,,1000000,116727,0.116727
+swim.trace.txt,LRU,12,,,1000000,225819,0.225819
+swim.trace.txt,LRU aproximado,12,32,100,1000000,206940,0.206940
+swim.trace.txt,OPT,16,,,1000000,78312,0.078312
+swim.trace.txt,LRU,16,,,1000000,171961,0.171961
+swim.trace.txt,LRU aproximado,16,32,100,1000000,159820,0.159820
+swim.trace.txt,OPT,20,,,1000000,54799,0.054799
+swim.trace.txt,LRU,20,,,1000000,115939,0.115939
+swim.trace.txt,LRU aproximado,20,32,100,1000000,101339,0.101339
+swim.trace.txt,OPT,24,,,1000000,41751,0.041751
+swim.trace.txt,LRU,24,,,1000000,75882,0.075882
+swim.trace.txt,LRU aproximado,24,32,100,1000000,71312,0.071312
+swim.trace.txt,OPT,28,,,1000000,34002,0.034002
+swim.trace.txt,LRU,28,,,1000000,58425,0.058425
+swim.trace.txt,LRU aproximado,28,32,100,1000000,55755,0.055755
+swim.trace.txt,OPT,32,,,1000000,28826,0.028826
+swim.trace.txt,LRU,32,,,1000000,48254,0.048254
+swim.trace.txt,LRU aproximado,32,32,100,1000000,47195,0.047195
+swim.trace.txt,OPT,64,,,1000000,14289,0.014289
+swim.trace.txt,LRU,64,,,1000000,21656,0.021656
+swim.trace.txt,LRU aproximado,64,32,100,1000000,21617,0.021617
+swim.trace.txt,OPT,128,,,1000000,6518,0.006518
+swim.trace.txt,LRU,128,,,1000000,13250,0.013250
+swim.trace.txt,LRU aproximado,128,32,100,1000000,14068,0.014068
+swim.trace.txt,OPT,256,,,1000000,3572,0.003572
+swim.trace.txt,LRU,256,,,1000000,5673,0.005673
+swim.trace.txt,LRU aproximado,256,32,100,1000000,7438,0.007438
