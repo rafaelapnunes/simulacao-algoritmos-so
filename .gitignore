@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Traces do trabalho (disponibilizados no moodle)
+traces/
