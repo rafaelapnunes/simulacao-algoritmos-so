@@ -202,9 +202,9 @@ Detalhando por quantidade de frames as melhores combinações:
 
 O que os dados mostram:
 
-- **T grande demais** (10000) é ruim em todos os casos: num intervalo tão longo quase todas as páginas em memória acabam com R = 1, e a escolha da vítima perde a noção de ordem, degenerando para FIFO. Aumentar N não ajuda, porque o problema está dentro do intervalo.
+- **T grande demais** (10000) teve o pior resultado médio para N a partir de 8 bits, entre 12,6% e 13,8% acima do LRU exato, e mais de 17% acima com 8 e 32 frames: num intervalo tão longo quase todas as páginas em memória acabam com R = 1, e a escolha da vítima perde a noção de ordem, degenerando para FIFO. Aumentar N não ajuda, porque o problema está dentro do intervalo. Só com 128 frames a janela longa compensa (entre 1,5% e 4,1% acima do LRU exato).
 - **T pequeno demais** (10) com poucos bits faz a janela N × T ser curta: muitas páginas ficam com histórico zerado e empatadas. Mais bits compensam em parte.
-- **Mais bits nunca pioram**, e ajudam justamente quando a janela N × T é curta em relação ao tempo que uma página fica sem uso, o que acontece com muitos frames.
+- **Mais bits quase sempre ajudam.** Na média, o resultado melhora ou empata a cada aumento de N, para qualquer T. Caso a caso, em 12 das 240 comparações entre valores vizinhos de N houve piora, sempre pequena (no máximo 1,2%). O ganho é maior quando a janela N × T é curta em relação ao tempo que uma página fica sem uso, o que acontece com muitos frames.
 - **N = 32 e T = 100** teve o melhor resultado geral, ficando a 1,1% do LRU exato. Além disso, 32 bits cabem numa palavra de máquina de uma arquitetura de 32 bits, o que torna a escolha realista. Esses são os valores padrão do simulador.
 
 Gráficos: [bzip](resultados/bzip_sensibilidade.png), [gcc](resultados/gcc_sensibilidade.png), [sixpack](resultados/sixpack_sensibilidade.png), [swim](resultados/swim_sensibilidade.png), [bigone](resultados/bigone_sensibilidade.png).
